@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultDisplay = document.querySelector('#result');
     let cardsChosen = [];
     let cardsChosenId = [];
-   let cardsWon = [];
+    let cardsWon = [];
 
     //tao bang game
     function createBoard() {
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         cardsChosen = [];
         cardsChosenId = [];
-        if (cardsWon.length === cardArray.length / 2) {
+        if (cardsWon.length === cardArray.length / 2) { //kiem tra dieu kien ưin
             resultDisplay.innerHTML = 'chúc mừng bạn đã qua Module 1 !'
             let button = document.createElement('input');
             //tao button choi lai
@@ -118,8 +118,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // tao game moi
     function reload() {
-        location.reload();
+        cardArray.sort(() => 0.5 - Math.random());
+        cardsWon = [];
+        resultDisplay.innerHTML = "";
+        grid.innerHTML = "";
+        createBoard();
+
+        // location.reload();
     }
+
 
     createBoard()
 })
