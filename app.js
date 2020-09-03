@@ -70,6 +70,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function flipCard() {
+        let cardId = this.getAttribute('id');
+        cardsChosen.push(cardArray[cardId].name);
+        cardsChosenId.push(cardId);
+        this.setAttribute('src', cardArray[cardId].img);
+        if (cardsChosen.length === 2) {
+            setTimeout(checkForMatch, 200);
+        }
+    }
+
     //kiem tra trung nhau
     function checkForMatch() {
         let cards = document.querySelectorAll('img');
@@ -102,17 +112,6 @@ document.addEventListener('DOMContentLoaded', () => {
             button.setAttribute('value', 'chơi lại');
             resultDisplay.append(button);
             button.addEventListener('click', reload);
-        }
-    }
-
-    //lat the
-    function flipCard() {
-        let cardId = this.getAttribute('id');
-        cardsChosen.push(cardArray[cardId].name);
-        cardsChosenId.push(cardId);
-        this.setAttribute('src', cardArray[cardId].img);
-        if (cardsChosen.length === 2) {
-            setTimeout(checkForMatch, 200);
         }
     }
 
