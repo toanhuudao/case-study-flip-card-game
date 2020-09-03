@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="497e0c4d-be5a-4ffa-b301-3399546205f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cheeseburger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fries.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hotdog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ice-cream.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/milkshake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pizza.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +45,30 @@
       <workItem from="1598922224721" duration="1433000" />
       <workItem from="1598923725297" duration="25646000" />
       <workItem from="1599153794999" duration="782000" />
-      <workItem from="1599174560722" duration="636000" />
+      <workItem from="1599174560722" duration="1009000" />
     </task>
+    <task id="LOCAL-00001" summary="game">
+      <created>1599175302926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599175302926</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="game" />
+    <option name="LAST_COMMIT_MESSAGE" value="game" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="423" y="0" key="CommitChangelistDialog2" timestamp="1599175301784">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="423" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1599175301784" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1598922378558">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -69,5 +77,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="587" y="350" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1599146961380" />
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1599175189433">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599175189433" />
   </component>
 </project>
