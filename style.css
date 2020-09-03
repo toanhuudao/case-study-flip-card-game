@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-family: sans-serif;
+
+
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.grid img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+#result {
+
+    text-align: center;
+    margin: 100px auto;
+    font-size: 50px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+input {
+
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    right: 423px;
+    font-size: 20px;
+}
+
+
