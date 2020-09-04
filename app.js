@@ -106,15 +106,14 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = [];
         if (cardsWon.length === cardArray.length / 2) { //kiem tra dieu kien ưin
             resultDisplay.innerHTML = 'chúc mừng bạn đã qua Module 1 !'
-            let button = document.createElement('input');
             //tao button choi lai
+            let button = document.createElement('input');
             button.setAttribute('type', 'button');
             button.setAttribute('value', 'chơi lại');
             resultDisplay.append(button);
             button.addEventListener('click', reload);
         }
     }
-
     // tao game moi
     function reload() {
         cardArray.sort(() => 0.5 - Math.random());
